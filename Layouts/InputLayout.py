@@ -3,6 +3,8 @@ from CustomWidgets.LineEdit import LineEdit
 
 
 class InputLayout(QGridLayout):
+    """Layout for the input labels and text boxes"""
+
     def __init__(self):
         super().__init__()
 

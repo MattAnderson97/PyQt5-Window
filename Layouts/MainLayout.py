@@ -3,6 +3,8 @@ from .InputLayout import InputLayout
 
 
 class MainLayout(QVBoxLayout):
+    """main layout for the application which contains the input layout and confirmation button"""
+
     def __init__(self):
         super().__init__()
 

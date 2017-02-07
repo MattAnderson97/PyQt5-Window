@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import QLineEdit
 
 
 class LineEdit(QLineEdit):
+    """custom line edit object which implements the focusInEvent() and focusOutEvent() methods"""
 
     def __init__(self):
         super().__init__()

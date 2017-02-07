@@ -5,6 +5,8 @@ import sys
 
 
 class MainWindow(QMainWindow):
+    """Main window class for the application"""
+
     def __init__(self):
         super().__init__()
 
@@ -23,7 +25,7 @@ class MainWindow(QMainWindow):
     def show_message(self):
         first_name = self.outer_layout.input_layout.first_name_input.text()
         surname = self.outer_layout.input_layout.surname_input.text()
-        self.status_bar.showMessage("Hello, {first_name} {surname}".format(first_name= first_name, surname=surname))
+        self.status_bar.showMessage("Hello, {first_name} {surname}".format(first_name=first_name, surname=surname))
 
 
 if __name__ == "__main__":
